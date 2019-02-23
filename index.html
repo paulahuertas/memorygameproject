@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+
+            <span class="moves"></span> Moves
+
+            <span class="timer">00:00</span>
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+            <li class="card">
+                <i class="fa"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="modal">
+        <div class="modalWindow">
+
+            <h3 class="modalHeading">You're an awesome player!</h3>
+            <ul class="modalStars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+           
+           <p>This game was completed in <span class="modalMoves"></span> moves, with a time of <span class="modalTime"></span>!</p>
+            <button type="button" class="modalButton" id="playAgain">
+                Have Fun and Play Again!
+            </button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
